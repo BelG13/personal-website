@@ -10,14 +10,44 @@
 }
 
 #main-content {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-zero-md {
+    font-family: monaco;
     padding: 5%;
 }
 
-/* canvas {
-    padding: 5%;
-} */
+h1 {
+    padding: 5%
+}
+
+h2 {
+    padding: 2%
+}
+
+p {
+    padding: 2%;
+}
+
+@media screen and (min-width:1px) and (max-width:320px){
+
+    p{
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width:1px) and (max-width:239px){
+
+    p{
+        font-size: 30%;
+    }
+
+    h1 {
+        font-size: 40%;
+        padding: 5%;
+    }
+
+    h2 {
+        font-size: 40%;
+        padding: 5%;
+    }
+}
+
+

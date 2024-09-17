@@ -14,6 +14,11 @@ function setup() {
 function mouseClicked(){
     grid = new Grid(20, 10);
 }
+
+function windowResized() {
+  var args = document.getElementById("main-content").getBoundingClientRect()
+  resizeCanvas(width, 400);
+}
   
 function draw() {
     background(10, 50, 70);

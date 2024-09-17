@@ -16,10 +16,6 @@ class Grid {
             }
         }
 
-        // this.grid[2][7] = 1
-        // this.grid[3][7] = 1
-        // this.grid[4][7] = 1
-
         // variable creation
         this.nw = nw;
         this.nh = nh;
@@ -53,11 +49,6 @@ class Grid {
                 if(j_ >= this.nh){
                     j_ = 0
                 }
-
-                console.log({
-                    i:i_,
-                    j:j_
-                });
                 
                 if(this.grid[i_][j_] == 1){
                     alive += 1;
